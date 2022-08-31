@@ -82,19 +82,6 @@ ventaImportante(bebida(Tipo,_)):- Tipo is alcoholica.
 ventaImportante(bebida(_,Cantidad)):- Cantidad >5. 
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  ESTO ESTA MAL!! porque no puedo contemplar los dos a la vez para vale, 
     primero porque el dia de dodain no va a coincidir con el dia de juanC para asignarseo a el dia de vale
@@ -104,40 +91,3 @@ turno(vale,Dia,HorarioInicio,HorarioFinal):-
     turno(juanC,Dia,HorarioInicio,HorarioFinal).
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
